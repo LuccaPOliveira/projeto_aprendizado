@@ -48,3 +48,15 @@ if idadeUsuario >= 18:
   print('Permitida a compra de bebidas alcoólicas')
 else:
   print('Compra de bebidas alcoólicas não permitida')
+
+#Pergunte para o usuário de quantos números ele quer tirar a média e tire a média desses números
+
+qtd = int(input('De quantos números você quer tirar a média? '))
+passo = range(1,qtd+1)
+soma = 0
+
+for i in passo:
+  n = float(input('Digite o {}º número: '.format(i)))
+  soma += n
+media = soma / i
+print('A média dos {} números é {}'.format(i,media))
