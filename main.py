@@ -31,3 +31,20 @@ elif vontade == 'Mexicano':
 else:
     print('Coma um miojo em casa mesmo!')
 print('Fome saciada!')
+
+#Desenvolver um programa para um depósito de bebidas que valide venda de bebidas para maiores de idade (maior ou igual 18 anos)
+#no mercado, o programa deve receber do usuário os valores do nome e ano que ele nasceu e retornar se ele pode comprar bebidas.
+
+import datetime
+
+today = datetime.date.today()
+year = today.year
+nomeUsuario = input('Digite seu nome: ')
+anoUsuario = int(input('Digite o ano em que nasceu: '))
+idadeUsuario = year - anoUsuario
+
+print('Você tem {} anos'.format(idadeUsuario))
+if idadeUsuario >= 18:
+  print('Permitida a compra de bebidas alcoólicas')
+else:
+  print('Compra de bebidas alcoólicas não permitida')
