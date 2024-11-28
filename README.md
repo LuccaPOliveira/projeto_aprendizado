@@ -14,3 +14,9 @@ Nos demais arquivos irei incluir os códigos que criei para resolução de algun
 Neste arquivo inclui o código que desenvolvi para simular um cardápio digital de um restaurante fictício.
 Nele o cliente pode visualizar o menu formatado, adicionar produtos ao seu pedido e ao final visualizar o que foi pedido e o valor final.
 O intuito deste código foi o estudo de loops de repetição (for e while) e a utilização de tuplas e listas.
+
+## Clientes.py
+
+Este arquivo contém o código que desenvolvi para criação de um banco de dados de clientes fictício.
+Ele permite o cadastro de novos clientes (Nome, e-mail, telefone e idade) e a busca de clientes já cadastrados através de seus e-mails.
+Código criado para estudo e prática da utilização de listas compostas, condicionais e loops.
